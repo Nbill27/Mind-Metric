@@ -1,4 +1,4 @@
-# 🧠 MindMetric Pro
+# 🧠 MindMetric
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B)
@@ -8,7 +8,7 @@
 **Sistem Analisis & Deteksi Dini Kesehatan Mental Mahasiswa Berbasis Machine Learning.**
 
 ## 📋 Tentang Project
-**MindMetric Pro** adalah aplikasi web interaktif yang dirancang untuk mendeteksi potensi risiko depresi pada mahasiswa. Aplikasi ini menganalisis pola kesehatan mental berdasarkan data demografis, akademik (IPK), dan riwayat gejala klinis.
+**MindMetric** adalah aplikasi web interaktif yang dirancang untuk mendeteksi potensi risiko depresi pada mahasiswa. Aplikasi ini menganalisis pola kesehatan mental berdasarkan data demografis, akademik (IPK), dan riwayat gejala klinis.
 
 Project ini dikembangkan sebagai tugas **Ujian Akhir Semester (UAS)** mata kuliah Machine Learning.
 
@@ -24,7 +24,7 @@ Project ini dikembangkan sebagai tugas **Ujian Akhir Semester (UAS)** mata kulia
 
 ## 📸 Tampilan Aplikasi (Screenshots)
 
-Berikut adalah antarmuka dari aplikasi MindMetric Pro:
+Berikut adalah antarmuka dari aplikasi MindMetric:
 
 ### 1. Halaman Utama & Form Input
 ![Tampilan Input](tampilan/tampilan.png)
