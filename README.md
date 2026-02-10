@@ -24,7 +24,10 @@ Project ini dikembangkan sebagai tugas **Ujian Akhir Semester (UAS)** mata kulia
 
 ## 📸 Tampilan Aplikasi (Screenshots)
 
-![Dashboard Preview](path/to/your/screenshot.png)
+Berikut adalah antarmuka dari aplikasi MindMetric Pro:
+
+### 1. Halaman Utama & Form Input
+![Tampilan Input](tampilan/tampilan.png)
 
 ---
 
@@ -47,67 +50,3 @@ MindMetric-Pro/
 ├── Student Mental health.csv  # Dataset
 ├── requirements.txt     # Daftar library yang dibutuhkan
 └── README.md            # Dokumentasi ini
-
-```
-
----
-
-## 🚀 Cara Menjalankan (Installation)
-
-Ikuti langkah-langkah ini untuk menjalankan aplikasi di komputer lokal Anda:
-
-1. **Clone Repository ini:**
-```
-git clone [https://github.com/USERNAME_KAMU/MindMetric-UAS.git](https://github.com/USERNAME_KAMU/MindMetric-UAS.git)
-cd MindMetric-UAS
-
-```
-
-
-2. **Install Library yang dibutuhkan:**
-```
-pip install -r requirements.txt
-
-```
-
-
-3. **Latih Model (Wajib dilakukan pertama kali):**
-Jalankan script ini untuk menghasilkan file `.pkl`:
-```
-python model.py
-```
-
-
-*(Pastikan muncul pesan sukses bahwa model_rf.pkl dan model_lr.pkl berhasil dibuat)*
-4. **Jalankan Aplikasi:**
-```
-python -m streamlit run aplikasi.py
-```
-
-
-
-
----
-
-## 📊 Tentang Dataset
-
-Dataset yang digunakan berasal dari survei kesehatan mental mahasiswa (sumber: Kaggle).
-
-* **Total Data:** 101 Mahasiswa (sebelum *preprocessing*)
-* **Fitur Input:** Gender, Usia, Tahun Kuliah, Status Pernikahan, IPK (CGPA), Riwayat Kecemasan (Anxiety), Riwayat Panic Attack.
-* **Target Output:** Depresi (Ya/Tidak).
-
----
-
-## ⚠️ Disclaimer
-
-Aplikasi ini merupakan simulasi Machine Learning untuk tujuan **Edukasi & Akademik**. Hasil prediksi hanyalah probabilitas statistik dan **TIDAK 100% AKURAT**. Aplikasi ini bukan pengganti diagnosa medis profesional. Jika Anda merasa membutuhkan bantuan, segera hubungi psikolog atau psikiater.
-
----
-
-## 👨‍💻 Author
-
-**Nabil Deja**
-
-* Universitas Bina Insani
-* Jurusan: Rekayasa Perangkat Lunak
